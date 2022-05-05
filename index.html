@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>To-do list</title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+
+    <div>
+      <p>To-do list</p>
+      <p id="empty"></p>
+      <div class="div-input">
+        <input type="text" id="userText" placeholder="What to do...">
+        <button onclick="newElement()" id="userAdd">ADD</button> 
+      </div>
+
+      <div class="div-list">
+        <ul id="myUl">
+          <li class="clearfix checked">Uradi domaći</li>
+          <li class="clearfix">Izbaci đubre</li>
+          <li class="clearfix">Zovi majstora</li>
+        </ul>
+      </div>
+    </div>
+
+    <script src="js.js"></script>
+  </body>
+</html>

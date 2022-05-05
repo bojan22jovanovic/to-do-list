@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+}
+
+div {
+  background-color: lightseagreen;
+  width: 800px;
+  height: 800px;
+  margin: 50px auto;
+}
+
+p {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 40px;
+  color: blue;
+  font-weight: 900;
+  padding-top: 20px;
+}
+#empty {
+  color: red;
+  font-size: 12px;
+  font-weight: 900;
+  text-transform: none;
+  text-align: center;
+}
+.div-input {
+  width: 300px;
+  height: 40px;
+  margin: 0 auto;
+  border-radius: 5px;
+  background-color: white;
+}
+#userText {
+  width: 180px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  color: black;
+  padding-left: 20px;
+}
+::placeholder {
+  color: blue;
+}
+#userText:focus {
+  outline: none;
+}
+
+#userAdd {
+  color: white;
+  background-color: blue;
+  width: 60px;
+  height: 25px;
+  margin-left: 50px;
+  border-radius: 3px;
+}
+#userAdd:hover {
+  background-color: lightseagreen;
+}
+
+.div-list {
+  width: 300px;
+  height: 200px;
+  margin: 20px auto;
+  background-color: white;
+  border-radius: 5px;
+}
+
+ul, li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ul {
+  padding: 10px;
+  width: 300px;
+}
+li {
+  height: 30px;
+  margin: 0 5px;
+  font-size: 15px;
+  border-bottom: 1px solid lightgray;
+  cursor: pointer;
+  border-radius: 5px;
+  line-height: 2;
+  color: blue;
+}
+
+li:hover {
+  background-color: lightgray;
+}
+.sText {
+  width: 200px;
+  height: 30px;
+  float: left;
+  padding-left: 5px;
+}
+.sKlik {
+  width: 30px;
+  height: 30px;
+  float: right;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.sKlik:hover {
+  background-color: lightseagreen;
+  border-radius: 5px;
+}
+
+.clearfix::before, .clearfix::after {
+  content: " ";
+  display: table;
+}
+.clearfix::after {
+  clear: both;
+}
